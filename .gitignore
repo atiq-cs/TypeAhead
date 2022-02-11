@@ -94,6 +94,10 @@ dist
 # Serverless directories
 .serverless/
 
+# Tests
+/coverage
+/.nyc_output
+
 # FuseBox cache
 .fusebox/
 
@@ -102,3 +106,10 @@ dist
 
 # TernJS port file
 .tern-port
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
